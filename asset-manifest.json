@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Quote-g9h/static/css/main.d7830f7d.css",
+    "main.js": "/Quote-g9h/static/js/main.ca59978b.js",
+    "static/js/787.3574d43f.chunk.js": "/Quote-g9h/static/js/787.3574d43f.chunk.js",
+    "index.html": "/Quote-g9h/index.html",
+    "main.d7830f7d.css.map": "/Quote-g9h/static/css/main.d7830f7d.css.map",
+    "main.ca59978b.js.map": "/Quote-g9h/static/js/main.ca59978b.js.map",
+    "787.3574d43f.chunk.js.map": "/Quote-g9h/static/js/787.3574d43f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7830f7d.css",
+    "static/js/main.ca59978b.js"
+  ]
+}
