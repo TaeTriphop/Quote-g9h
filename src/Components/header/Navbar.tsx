@@ -2,18 +2,6 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-interface NavigationItem {
-  name: string;
-  href: string;
-}
-
-const navigation: NavigationItem[] = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
-];
-
 export default function Layouts() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -53,7 +41,6 @@ export default function Layouts() {
             <div className="fixed inset-0 z-50" />
             <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-end">
-                
                 <button
                   type="button"
                   className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -65,9 +52,7 @@ export default function Layouts() {
               </div>
               <div className="mt-6 flow-root">
                 <div className="-my-6 divide-y divide-gray-500/10">
-                  <div className="space-y-2 py-6">
-                   
-                  </div>
+                  <div className="space-y-2 py-6"></div>
                   <div className="py-6">
                     <a
                       href="#"
