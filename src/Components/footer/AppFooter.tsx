@@ -1,5 +1,6 @@
 import React from "react";
 import { Fragment, useRef, useState } from "react";
+import "../Style/Appfooter.css";
 import { Dialog, Transition } from "@headlessui/react";
 import { ExclamationCircleIcon } from "@heroicons/react/24/outline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,7 +14,7 @@ export default function AppFooter() {
   return (
     <>
       <div className="flex justify-center absolute bottom-0 left-0 right-0 p-3 bg-white bg-opacity-80">
-        <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+        <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 responsiveText">
           ขอให้ทุกวันเป็นวันที่ดีสำหรับทุกคนครับ &nbsp;
           <span
             className="font-semibold text-indigo-600 cursor-pointer"
