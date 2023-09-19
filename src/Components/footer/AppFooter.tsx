@@ -14,10 +14,10 @@ export default function AppFooter() {
   return (
     <>
       <div className="flex justify-center absolute bottom-0 left-0 right-0 p-3 bg-white bg-opacity-80">
-        <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 responsiveText">
+        <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-red-950/20 responsiveText">
           ขอให้ทุกวันเป็นวันที่ดีสำหรับทุกคนครับ &nbsp;
           <span
-            className="font-semibold text-indigo-600 cursor-pointer"
+            className="font-semibold text-[#db2777] cursor-pointer"
             onClick={() => setOpenModal(true)}
           >
             <span className="absolute inset-0" aria-hidden="true"></span>
@@ -92,6 +92,7 @@ export default function AppFooter() {
                     <a
                       href="https://media.tenor.com/PS6medrGxqwAAAAd/cat-kiss.gif"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 sm:ml-3 sm:w-auto"
                       onClick={() => setOpenModal(false)}
                     >
