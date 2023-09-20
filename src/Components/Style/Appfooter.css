@@ -1,6 +1,23 @@
-@media (max-width: 375px) {
-    .responsiveText  {
-      font-size: 9px;
-    }
+@media (max-width: 300px) {
+  .responsiveText {
+    font-size: 9px;
   }
-  
+}
+
+@media (max-width: 375px) {
+  .responsiveText {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 380px) {
+  .responsiveText {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 390px) {
+  .responsiveText {
+    font-size: 11px;
+  }
+}

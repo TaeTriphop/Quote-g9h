@@ -92,8 +92,8 @@ export default function Quote() {
               </div>
             </figcaption>
           </figure>
+          <AppFooter />
         </div>
-        <AppFooter />
       </section>
     </>
   );
