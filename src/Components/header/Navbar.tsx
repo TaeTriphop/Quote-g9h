@@ -24,12 +24,12 @@ export default function Layouts() {
               </button>
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-              <a
+              {/* <a
                 href="#"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Log in <span aria-hidden="true">&rarr;</span>
-              </a>
+              </a> */}
             </div>
           </nav>
           <Dialog
@@ -54,12 +54,16 @@ export default function Layouts() {
                 <div className="-my-6 divide-y divide-gray-500/10">
                   <div className="space-y-2 py-6"></div>
                   <div className="py-6">
-                    <a
+                    {/* <a
                       href="#"
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       Log in
-                    </a>
+                    </a> */}
+
+                    <span className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      ตอนแรกจะทำระบบ Login เพื่อจัดการตัว "Quote" ด้วย แต่ไปทำเว็บอื่นแทนแล้วครับ
+                    </span>
                   </div>
                 </div>
               </div>
