@@ -84,7 +84,7 @@ export default function Quote() {
               <div className="flex items-center justify-center gap-x-6">
                 <button
                   onClick={shuffleQuote}
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-full bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   เอาอีก &nbsp;
                   <FontAwesomeIcon icon={faShuffle} />
